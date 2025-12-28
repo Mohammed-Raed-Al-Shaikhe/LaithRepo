@@ -1,0 +1,37 @@
+class ApiLinks {
+  static const String server = "http://10.0.2.2:8012/jobflex";
+  static const String employerSignUp = "http://10.0.2.2:8012/jobflex/auth/employerSignUp.php";
+  static const String employerLogin = "http://10.0.2.2:8012/jobflex/auth/employerLogin.php";
+  static const String jobSeekerSignUp = "http://10.0.2.2:8012/jobflex/auth/jobSeekerSignUp.php";
+  static const String jobSeekerLogin = "http://10.0.2.2:8012/jobflex/auth/jobSeekerLogin.php";
+  static const String uploadJobSeekerImage = "http://10.0.2.2:8012/jobflex/uploadJobSeekerImage.php";
+  static const String uploadEmployerImage = "http://10.0.2.2:8012/jobflex/uploadEmployerImage.php";
+  static const String jobSeekerProfileInfo = "http://10.0.2.2:8012/jobflex/jobSeekerProfileInfo.php";
+  static const String employerProfileInfo = "http://10.0.2.2:8012/jobflex/employerProfileInfo.php";
+  static const String uploadCV = "http://10.0.2.2:8012/jobflex/uploadCV.php";
+  static const String editJobSeekerProfile = "http://10.0.2.2:8012/jobflex/editJobSeekerProfile.php";
+  static const String editEmployerProfile = "http://10.0.2.2:8012/jobflex/editEmployerProfile.php";
+  static const String postJob = "http://10.0.2.2:8012/jobflex/postJob.php";
+  static const String getJobPosts = "http://10.0.2.2:8012/jobflex/getJobPosts.php";
+  static const String getRecommendedJobPosts = "http://10.0.2.2:8012/jobflex/getRecommendedJobPosts.php";
+  static const String getRecentJobPosts = "http://10.0.2.2:8012/jobflex/getRecentJobPosts.php";
+  static const String applyJob = "http://10.0.2.2:8012/jobflex/applyJob.php";
+  static const String getAppliedJobs = "http://10.0.2.2:8012/jobflex/getAppliedJobs.php";
+  static const String getJobApplications = "http://10.0.2.2:8012/jobflex/getJobApplications.php";
+  static const String editApplicationStatus = "http://10.0.2.2:8012/jobflex/updateApplicationStatus.php";
+  static const String getJobsByField = "http://10.0.2.2:8012/jobflex/getJobsByField.php";
+  static const String getJobSeekersByField = "http://10.0.2.2:8012/jobflex/getJobSeekersByField.php";
+  static const String getAvailableJobSeekers = "http://10.0.2.2:8012/jobflex/getAvailableJobSeekers.php";//in employer homepage
+  static const String searchForJobs = "http://10.0.2.2:8012/jobflex/searchForJobs.php";
+  static const String searchForJobSeekers = "http://10.0.2.2:8012/jobflex/searchForJobseekers.php";
+  static const String scheduleAnInterview = "http://10.0.2.2:8012/jobflex/scheduleAnInterview.php";
+  static const String getEmployerInterviews = "http://10.0.2.2:8012/jobflex/getEmployerInterviewes.php";
+  static const String getJobSeekerInterviews = "http://10.0.2.2:8012/jobflex/getJobSeekerInterviewes.php";
+  static const String createContract = "http://10.0.2.2:8012/jobflex/createContract.php";
+  static const String employerContracts = "http://10.0.2.2:8012/jobflex/getEmployerContracts.php";
+  static const String jobSeekerContracts = "http://10.0.2.2:8012/jobflex/getJobSeekerContracts.php";
+  static const String signContract = "http://10.0.2.2:8012/jobflex/signContract.php";
+  static const String requestContractChanges = "http://10.0.2.2:8012/jobflex/requestContractChanges.php";
+  static const String rejectContract = "http://10.0.2.2:8012/jobflex/rejectContract.php";
+  static const String deleteJobPost = "http://10.0.2.2:8012/jobflex/deleteJobPost.php";
+}
